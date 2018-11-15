@@ -1,5 +1,7 @@
+//include library
 #include<iostream>
 using namespace std;
+
 int fstrlen(char a[])
 { 
 	char *p;
@@ -8,6 +10,7 @@ int fstrlen(char a[])
 	while(*p!='\0')
 	{i++;p++;}
 	return i;
+	
 }
 int fstrcmp()
 {
