@@ -1,5 +1,7 @@
+//include library
 #include<iostream>
 using namespace std;
+
 int fstrlen(char a[])
 { 
 	char *p;
@@ -9,6 +11,7 @@ int fstrlen(char a[])
 	{i++;p++;}
 	return i;
 }
+
 int main()
 {
 	int k;
